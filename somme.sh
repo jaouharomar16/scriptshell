@@ -14,6 +14,9 @@ if [ $# -eq 3 ]
 		elif [ $2 = '/' ]
 		then $res=$(($1 / $3))
 		echo "$res"
+		elif [ $2 = '*' ]
+		then $res=$(($1 * $3))
+		echo "$res"
 		fi
 elif [ $# != 3 ]
 	then
