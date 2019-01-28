@@ -14,5 +14,4 @@ fact=1
 	 		nb=$(($nb-1))
 	 	done
 	 fi
-
 echo "fact ==> ", $fact
